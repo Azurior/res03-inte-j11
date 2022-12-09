@@ -36,10 +36,87 @@ figure {
 
 
 /* EXERCICE 1 */
+#glass-body{
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-name: ex1;
+    animation-fill-mode: forwards;
+    
+}
 
+@keyframes ex1{
+    from{
+        fill: rgba(255, 0, 0, 0);
+    }
+    to{
+        fill: rgba(157, 17, 17, 1); 
+    }
+}
 
 /* EXERCICE 2 */
+.tiny-bubble{
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: ex2Tiny;
+    animation-fill-mode: forwards;
+}
 
+@keyframes ex2Tiny{
+    from{
+        
+    }
+    to{
+        transform: translateY(-50vh);
+    }
+}
+
+.small-bubble{
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: ex2Small;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex2Small{
+    from{
+        
+    }
+    to{
+        transform: translateY(-40vh);
+    }
+}
+
+.middle-bubble{
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: ex2Middle;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex2Middle{
+    from{
+        
+    }
+    to{
+        transform: translateY(-30vh);
+    }
+}
+
+.big-bubble{
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: ex2Big;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex2Big{
+    from{
+        
+    }
+    to{
+        transform: translateY(-20vh);
+    }
+}
 
 /* EXERCICE 3 */
 
@@ -55,6 +132,140 @@ figure {
 #ex3 figure {
     max-width:40%;
     max-height:40%;
+}
+
+#ex3 path:nth-of-type(1), 
+path:nth-of-type(6), 
+path:nth-of-type(11), 
+path:nth-of-type(16){
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-name: ex3-1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex3-1{
+    0%{
+        
+    }
+    25%{
+        fill: #7400b8;
+    }
+    50%{
+        fill: #7400b8;
+    }
+    75%{
+        fill: #7400b8;
+    }
+    100%{
+        fill: #7400b8;
+    }
+}
+
+#ex3 path:nth-of-type(2), 
+path:nth-of-type(7), 
+path:nth-of-type(12), 
+path:nth-of-type(17){
+    animation-delay: 1.25s;
+    animation-duration: 2s;
+    animation-name: ex3-2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex3-2{
+    0%{
+        
+    }
+    25%{
+        fill: #5e60ce;
+    }
+    50%{
+        fill: #5e60ce;
+    }
+    75%{
+        fill: #5e60ce;
+    }
+    100%{
+        fill: #5e60ce;
+    }
+}
+
+#ex3 path:nth-of-type(3), 
+path:nth-of-type(8), 
+path:nth-of-type(13){
+    animation-delay: 1.50s;
+    animation-duration: 2s;
+    animation-name: ex3-3;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex3-3{
+    0%{
+        
+    }
+    25%{
+        fill: #4ea8de;
+    }
+    50%{
+        fill: #4ea8de;
+    }
+    75%{
+        fill: #4ea8de;
+    }
+    100%{
+        fill: #4ea8de;
+    }
+}
+
+#ex3 path:nth-of-type(9), 
+path:nth-of-type(14){
+    animation-delay: 1.75s;
+    animation-duration: 2s;
+    animation-name: ex3-4;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex3-4{
+    0%{
+        
+    }
+    25%{
+        fill: #56cfe1;
+    }
+    50%{
+        fill: #56cfe1;
+    }
+    75%{
+        fill: #56cfe1;
+    }
+    100%{
+        fill: #56cfe1;
+    }
+}
+
+#ex3 path:nth-of-type(15){
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-name: ex3-5;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex3-5{
+    0%{
+        
+    }
+    25%{
+        fill: #72efdd;
+    }
+    50%{
+        fill: #72efdd;
+    }
+    75%{
+        fill: #72efdd;
+    }
+    100%{
+        fill: #72efdd;
+    }
 }
 
 /* EXERCICE 4 */

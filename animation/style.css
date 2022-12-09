@@ -106,25 +106,25 @@ section:first-of-type, section:nth-of-type(3) {
     border-radius: 50%;
     border-radius: 50%;
     animation-delay: 2s;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-name: ex4;
     animation-fill-mode: forwards;
 }
 
 @keyframes ex4{
     0%{
-        transform: translateY(15vh) translateX(10vh) rotate(45deg);
+        ;
     }
     25%{
-        transform: translateY(8vh) translateX(18vh) rotate(90deg);
+        transform: translateY(15vh) translateX(10vh) rotate(45deg);
     }
     50%{
-        transform: translateY(15vh) translateX(24vh) rotate(135deg);
+        transform: translateY(8vh) translateX(18vh) rotate(90deg);
     }
     75%{
-        transform: translateY(15vh) translateX(30vh) rotate(180deg);
+        transform: translateY(15vh) translateX(24vh) rotate(135deg);
     }
     100%{
-        transform: translateY(15vh) translateX(34vh) rotate(225deg);
+        transform: translateY(15vh) translateX(30vh) rotate(180deg);
     }
 }
