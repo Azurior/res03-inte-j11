@@ -1,0 +1,36 @@
+.invi{
+    display: none;
+}
+
+.st3{
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: fish;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes fish{
+    from{
+        transform-origin: translateX(20vh);
+    }
+    to{
+        transform: rotate(-5deg);
+    }
+}
+
+.st2{
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: bubble;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bubble{
+    from{
+        
+    }
+    to{
+        transform: translateY(-100vh);
+    }
+}
